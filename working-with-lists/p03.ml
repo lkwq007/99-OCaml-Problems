@@ -2,4 +2,4 @@
 let rec at index lst=
     match lst with
     | [] -> None
-    | head::tail -> let tmp=index-1 in if tmp==0 then Some head else at tmp tail;;
+    | head::tail -> let tmp=index-1 in if tmp=0 then Some head else at tmp tail;;
